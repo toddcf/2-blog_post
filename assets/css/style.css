@@ -1,3 +1,10 @@
+/*Rules that affect ALL elements*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	font-size: 18px;
 	font-family: helvetica, arial;
