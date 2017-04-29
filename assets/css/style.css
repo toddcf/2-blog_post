@@ -29,6 +29,7 @@ body {
 	width: 75%;
 	float: left;
 	padding-right: 30px;
+	position: relative;
 }
 
 .other-posts {
@@ -37,10 +38,27 @@ body {
 	float: left;
 }
 
+.other {
+	margin-bottom: 40px;
+}
+
 .author-box {
 	/*background-color: #ffff00;*/
 	padding-top: 20px;
 	border-top: 1px solid #808080;
+}
+
+/*Select only the images inside the author-box*/
+.author-box img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	float: left;
+}
+
+.blog-post img {
+	height: 150px;
+	width: auto;
 }
 
 h1, h2 {
@@ -64,4 +82,13 @@ h2 {
 
 .author-text {
 	font-size: 22px;
+	float: left;
+	margin-top: 35px;
+	margin-left: 10px;
+}
+
+.date {
+	position: absolute;
+	top: 10px;
+	right: 30px;
 }
